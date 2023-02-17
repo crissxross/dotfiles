@@ -1,0 +1,15 @@
+[user]
+	name = Christine Wilks
+	email = crissxross@users.noreply.github.com
+
+[init]
+	defaultBranch = main
+
+[color]
+	ui = true
+
+[core]
+	excludesfile = /Users/christine/.gitignore_global
+
+[credential]
+	helper = osxkeychain
