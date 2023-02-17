@@ -11,5 +11,5 @@
 [core]
 	excludesfile = /Users/christine/.gitignore_global
 
-[credential]
-	helper = osxkeychain
+#[credential]
+#	helper = osxkeychain
