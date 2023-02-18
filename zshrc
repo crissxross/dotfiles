@@ -4,11 +4,16 @@
 echo 'Hello from .zshrc'
 
 # Set Variables
+# Syntax highlighting for man pages using bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export BAT_THEME="Coldark-Dark"
 
 # Change ZSH Options
 
 # Create Aliases
-alias ls='ls -lAFh'
+# alias ls='ls -lAFh'
+alias ls='exa -laFh --git'
+alias exa='exa -laFh --git'
 
 # Customize Prompt (s)
 PROMPT='
@@ -17,6 +22,8 @@ PROMPT='
 RPROMPT='%*'
 
 # Add Locations to $PATH Variable
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Write Handy Functions
 function mkcd() {
