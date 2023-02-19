@@ -35,3 +35,5 @@ mas "Pages", id: 409201541
 mas "Speedtest", id: 1153157709
 mas "TestFlight", id: 899247664
 mas "TextSniper", id: 1528890965
+
+# TODO remove some of this preinstalled Apple software - e.g. Garageband, iMovie, Pages
