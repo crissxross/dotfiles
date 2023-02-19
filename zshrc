@@ -14,6 +14,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
 
 # Customize Prompt (s)
 PROMPT='
