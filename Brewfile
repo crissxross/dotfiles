@@ -16,6 +16,8 @@ brew "mas"
 brew "n"
 # Internet file retriever
 brew "wget"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Web browser
 cask "firefox"
 # Web browser
