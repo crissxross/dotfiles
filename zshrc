@@ -37,9 +37,9 @@ source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 
 # Add Locations to $PATH Variable
+export PATH="$N_PREFIX/bin:$PATH"
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-export PATH="$PATH:$N_PREFIX/bin"
 
 # Write Handy Functions
 function mkcd() {
