@@ -1,0 +1,15 @@
+# vi
+*~
+
+# Mac
+.DS_Store
+
+# System files
+Thumbs.db
+
+# IDEs and editors
+.vscode
+.idea/
+
+# dependencies to keep private
+gsap-bonus.tgz

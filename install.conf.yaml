@@ -7,7 +7,11 @@
 - link:
     ~/.zshrc:
     ~/.zshenv:
+    ~/.zprofile:
     ~/.gitconfig:
+    ~/.hyper.js:
+    ~/.p10k.zsh:
+    ~/.gitignore_global:
     ~/.config/bat:
       create: true
       path: config/bat
