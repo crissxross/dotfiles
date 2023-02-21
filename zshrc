@@ -27,19 +27,21 @@ alias trail='<<<${(F)path}'
 alias rm=trash
 
 # Customize Prompt (s)
-# PROMPT='
-# %1~ %L %# '
-
-# RPROMPT='%*'
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-# Add Locations to $PATH Variable
-export PATH="$N_PREFIX/bin:$PATH"
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# Add Locations to $path Array
+# -U unique
+typeset -U path
+
+path=(
+  "$N_PREFIX/bin"
+  $path
+  # Add Visual Studio Code (code)
+  "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
 
 # Write Handy Functions
 function mkcd() {
