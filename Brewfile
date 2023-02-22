@@ -25,6 +25,10 @@ brew "romkatv/powerlevel10k/powerlevel10k"
 cask "firefox"
 # Web browser
 cask "google-chrome"
+# QuickLook generator for Markdown files
+cask "qlmarkdown"
+# QuickLook plugin for JSON files
+cask "quicklook-json"
 # Tool for telling interactive, nonlinear stories
 cask "twine"
 mas "1Password for Safari", id: 1569813296
