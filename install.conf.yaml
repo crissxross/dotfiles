@@ -8,6 +8,8 @@
     ~/.zshrc:
     ~/.zshenv:
     ~/.zprofile:
+    ~/.bashrc:
+    ~/.profile:
     ~/.gitconfig:
     ~/.hyper.js:
     ~/.p10k.zsh:
