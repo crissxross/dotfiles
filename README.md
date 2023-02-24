@@ -2,6 +2,10 @@
 
 I learned about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz) and the following instructions are based on those.
 
+## MacBook Pro
+
+This branch relates specifically to restoring my MacBook Pro from a clean install.
+
 ## Decommission Computer
 
 Maybe [Create a bootable USB installer for macOS](https://support.apple.com/en-us/HT201372).
@@ -66,6 +70,12 @@ Deactivate licenses:
     ```
 
 ### Manual Steps
+
+#### Software to install
+
+- [Firefoo](https://firefoo.app/)
+- Microsoft Office apps
+- [SVGX](https://svgx.app/) (if compatible with OS)
 
 #### Raycast
 

@@ -21,16 +21,39 @@ brew "wget"
 brew "zsh"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
+
+cask "1password"
+cask "adobe-creative-cloud"
+# Collect, organize, edit and annotate documents
+cask "devonthink"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
+cask "evernote"
+cask "fig"
 # Web browser
 cask "firefox"
 # Web browser
 cask "google-chrome"
+cask "hyper"
+cask "iterm2"
+cask "keyboard-maestro"
+cask "obsidian"
+# Browser for ambitious developers
+cask "polypane"
 # QuickLook generator for Markdown files
 cask "qlmarkdown"
 # QuickLook plugin for JSON files
 cask "quicklook-json"
 # Tool for telling interactive, nonlinear stories
+# Control your tools with a few keystrokes
+cask "raycast"
+cask "rectangle"
+cask "scapple"
+cask "scrivener"
 cask "twine"
+cask "visual-studio-code"
+cask "zotero"
+
 mas "1Password for Safari", id: 1569813296
 mas "Connect my tablet", id: 1352696344
 mas "Copy 'Em", id: 876540291
