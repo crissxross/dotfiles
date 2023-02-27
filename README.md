@@ -16,6 +16,7 @@ Software audit:
 
 Backup / sync files:
 - Commit and Push to remote repositories
+  - including Obsidian vaults on GitHub
 - Time Machine
 - Dropbox / Google Drive
 - Manual Backups (external drives, redundant cloud services)
@@ -37,7 +38,7 @@ Deactivate licenses:
 6. [`./install`](install)
 7. Restart computer.
 8. Setup up Dropbox (use multifactor authentication!) and allow files to sync before setting up dependent applications. Raycast settings are stored here. Mackup depends on this as well (if using, e.g. for Terminal).
-9. Run `mackup restore`. Consider doing a `mackup restore --dry-run --verbose` first.
+9. (If using) Run `mackup restore`. Consider doing a `mackup restore --dry-run --verbose` first.
 10. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
 
     ```zsh
@@ -76,6 +77,15 @@ Deactivate licenses:
 - [Firefoo](https://firefoo.app/)
 - Microsoft Office apps
 - [SVGX](https://svgx.app/) (only if compatible with OS)
+
+#### Obsidian Vaults
+
+- Consider, **single source of truth** is Obsidian Sync
+- If necessary:
+  - rename & archive the vault's existing GitHub repo
+  - sync the vault with Obsidan sync
+  - `git init` in each vault's local folder
+  - then create a fresh repo for each vault and `push`...
 
 #### Raycast
 
