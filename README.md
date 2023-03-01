@@ -86,6 +86,8 @@ Deactivate licenses:
 #### macOS settings
 
 - Appearance > Show scroll bars = Always (for web dev)
+- Trackpad - Tracking speed: 8/10 (or 9/10)
+- Accessibility > Pointer Control > Trackpad Options - Scroll speed: 6/8
 
 #### VS Code
 
