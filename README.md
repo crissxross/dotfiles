@@ -4,7 +4,7 @@ I learned about dotfiles at [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz) and 
 
 ## MacBook Pro
 
-This branch relates specifically to restoring my MacBook Pro from a clean install.
+This branch relates specifically to restoring my MacBook Pro from a clean install. NOTE: check **main** branch for any changes.
 
 ## Decommission Computer
 
