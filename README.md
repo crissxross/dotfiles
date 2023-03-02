@@ -34,7 +34,7 @@ Deactivate licenses:
 2. `git clone https://github.com/crissxross/dotfiles.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
 3. `cd ~/.dotfiles`
 4. If necessary, `git checkout <another_branch>`.
-5. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
+5. Do one last Software Audit by editing [Brewfile](Brewfile) directly (see **macbook-pro** branch).
 6. [`./install`](install)
 7. Restart computer.
 8. Setup up Dropbox (use multifactor authentication!) and allow files to sync before setting up dependent applications. Raycast settings are stored here. Mackup depends on this as well (if using, e.g. for Terminal).
@@ -102,3 +102,8 @@ Deactivate licenses:
 #### VS Code
 
 - Manage settings - make sure: `✔️ Settings Sync is On`
+
+#### Install purchased fonts
+
+- Download **Operator Mono ScreenSmart** (for VS Code) from [Your Font Library | Fonts by Hoefler&Co.](https://www.typography.com/account/font-library)
+- Then double-click on the font in the Finder to install

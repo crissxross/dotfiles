@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -23,6 +24,8 @@ brew "zsh"
 brew "romkatv/powerlevel10k/powerlevel10k"
 # Web browser
 cask "firefox"
+# Developer targeted fonts with a high number of glyphs
+cask "font-meslo-lg-nerd-font"
 # Web browser
 cask "google-chrome"
 # QuickLook generator for Markdown files
