@@ -48,9 +48,10 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
-# Use ZSH Plugins
+# Use ZSH Plugins (Fig is handling plugins)
 
-# ...and Other Surprises
+# Load Angular CLI autocompletion.
+source <(ng completion script)
 
 
 # Fig post block. Keep at the bottom of this file.
