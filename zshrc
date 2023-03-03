@@ -44,6 +44,13 @@ function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
 
+# A FIX to prevent '/dev/fd/12:18: command not found: compdef' error
+# source: https://github.com/angular/angular-cli/issues/24430
+# another source: https://apple.stackexchange.com/questions/296477/my-command-line-says-complete13-command-not-found-compdef
+# autoload -Uz compinit
+autoload compinit
+compinit
+
 # Load Angular CLI autocompletion.
 source <(ng completion script)
 
