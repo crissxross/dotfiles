@@ -1,7 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
-tap "romkatv/powerlevel10k"
+# tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -21,7 +21,7 @@ brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
 # A Zsh Theme
-brew "romkatv/powerlevel10k/powerlevel10k"
+# brew "romkatv/powerlevel10k/powerlevel10k"
 # Web browser
 cask "firefox"
 # Developer targeted fonts with a high number of glyphs
