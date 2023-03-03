@@ -12,7 +12,6 @@
     ~/.profile:
     ~/.gitconfig:
     ~/.hyper.js:
-    ~/.p10k.zsh:
     ~/.gitignore_global:
     ~/.config/bat:
       create: true
