@@ -19,7 +19,7 @@
 
 
 - create:
-    - ~/Work
+    - ~/Developer
 
 - shell:
   - command: ./setup_homebrew.zsh
