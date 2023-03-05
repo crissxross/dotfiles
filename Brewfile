@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -15,6 +16,8 @@ brew "httpie"
 brew "mas"
 # Node version management
 brew "n"
+# Development kit for the Java programming language
+brew "openjdk"
 # Internet file retriever
 brew "wget"
 # UNIX shell (command interpreter)
