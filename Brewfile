@@ -28,7 +28,7 @@ cask "firefox"
 cask "font-meslo-lg-nerd-font"
 # Web browser
 cask "google-chrome"
-# QuickLook generator for Markdown files
+# QuickLook generator for Markdown files - https://github.com/sbarex/QLMarkdown
 cask "qlmarkdown"
 # QuickLook plugin for JSON files
 cask "quicklook-json"

@@ -98,6 +98,7 @@ Deactivate licenses:
 - Appearance > Show scroll bars = Always (for web dev)
 - Trackpad - Tracking speed: 8/10 (or 9/10)
 - Accessibility > Pointer Control > Trackpad Options - Scroll speed: 6/8
+- AirPlay Receiver off (because it uses port 5000) > General > AirDrop & Handoff > AirPlay Receiver
 
 #### VS Code
 
