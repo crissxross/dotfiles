@@ -1,6 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
+tap "oven-sh/bun"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -22,26 +22,36 @@ brew "openjdk"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
 # Web browser
 cask "firefox"
 # Developer targeted fonts with a high number of glyphs
 cask "font-meslo-lg-nerd-font"
 # Web browser
 cask "google-chrome"
-# QuickLook generator for Markdown files - https://github.com/sbarex/QLMarkdown
+# QuickLook generator for Markdown files
 cask "qlmarkdown"
 # QuickLook plugin for JSON files
 cask "quicklook-json"
 # Tool for telling interactive, nonlinear stories
 cask "twine"
 mas "1Password for Safari", id: 1569813296
+mas "Actions", id: 1586435171
+mas "Color Picker", id: 1545870783
 mas "Connect my tablet", id: 1352696344
 mas "Copy 'Em", id: 876540291
 mas "Drafts", id: 1435957248
 mas "Hand Mirror", id: 1502839586
+mas "Hyperduck", id: 6444667067
 mas "Keynote", id: 409183694
-mas "Kindle", id: 405399194
+mas "Kindle", id: 302584613
+mas "Kindle Classic", id: 405399194
 mas "Messenger", id: 1480068668
+mas "Spaced", id: 1666327168
 mas "Speedtest", id: 1153157709
 mas "TestFlight", id: 899247664
 mas "TextSniper", id: 1528890965
+
