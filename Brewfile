@@ -24,6 +24,8 @@ brew "wget"
 brew "zsh"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
+# Browser for SQLite databases
+cask "db-browser-for-sqlite"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Web browser
@@ -32,12 +34,14 @@ cask "firefox"
 cask "font-meslo-lg-nerd-font"
 # Web browser
 cask "google-chrome"
-# QuickLook generator for Markdown files
+# Quick Look generator for Markdown files
 cask "qlmarkdown"
-# QuickLook plugin for JSON files
+# Quick Look plugin for JSON files
 cask "quicklook-json"
 # Tool for telling interactive, nonlinear stories
 cask "twine"
+# Rust-based terminal
+cask "warp"
 mas "1Password for Safari", id: 1569813296
 mas "Actions", id: 1586435171
 mas "Color Picker", id: 1545870783
