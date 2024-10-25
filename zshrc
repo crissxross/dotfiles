@@ -17,11 +17,12 @@ export PREFIX="$N_PREFIX"
 # Change ZSH Options
 
 # Create Aliases
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
+alias ls='eza -l --icons --grid --header --git'
+alias eza='eza -l --icons --grid --header --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
+alias python=python3
 
 # Customize Prompt
 source ~/powerlevel10k/powerlevel10k.zsh-theme
