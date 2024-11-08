@@ -23,6 +23,8 @@ alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
 alias python=python3
+alias pym='python3 -m'
+alias uvm='uv run -m'
 
 # Customize Prompt
 source ~/powerlevel10k/powerlevel10k.zsh-theme
@@ -53,6 +55,10 @@ function mkcd() {
 
 # Enable zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Initialize zoxide
+# Note this must be at the end of ~/.zshrc but zoxide should be loaded before syntax highlighting
+eval "$(zoxide init zsh)"
 
 # Enable zsh-syntax-highlighting
 # Note the source command must be at the end of ~/.zshrc.
